@@ -25,4 +25,19 @@ namespace SRP
         }
 
     }
+
+
+    public class Almacenamiento
+    {
+        public static void AlmacenarLibro(String sector, String estante)
+        {
+            Libro.SectorBiblioteca = sector;
+            Libro.EstanteBiblioteca = estante;
+
+        }
+
+    }
 }
+
+// AlmacenarLibro debería ser una clase aparte, pues de esta manera, la clase Libro se está ocupando del registro del libro, 
+// y además del almacenamiento en una biblioteca
