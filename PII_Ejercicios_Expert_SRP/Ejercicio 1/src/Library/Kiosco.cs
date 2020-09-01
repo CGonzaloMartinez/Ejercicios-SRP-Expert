@@ -6,12 +6,17 @@ namespace Expert_SRP
     {
         public Boolean PuedeComprar(Alfajor a, Double dinero, String moneda) 
         {
-            Double pesos = ConvertirAPesos(dinero, moneda);
-            return pesos >= a.PrecioDulce + a.PrecioMasa;
+            Double pesos = ConvertirAPesos.ConvertirPesos(dinero, moneda);
+            return pesos >= a.Total;
         }
-        private Double ConvertirAPesos(Double dinero, String moneda)
+
+    }
+
+    public class ConvertirAPesos
+    {   
+        public static double ConvertirPesos(Double dinero, String moneda)
         {
-            if (moneda.Equals("U$S")) 
+             if (moneda.Equals("U$S")) 
             {
                 return dinero / 30;
             } 
@@ -24,5 +29,8 @@ namespace Expert_SRP
                 return -1;
             }
         }
+
+
+
     }
 }
