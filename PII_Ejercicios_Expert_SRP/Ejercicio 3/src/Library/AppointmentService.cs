@@ -51,3 +51,6 @@ namespace Library
 
     }
 }
+// Si bien la clase posee la información necesaria para realizar lo que se pide(Expert), 
+// la clase tiene la responsabilidad de validar todos los datos, y en caso de que se agreguen nuevos datos acerca de la consulta
+// (como por ejemplo la especialidad del doctor), ya se generaría un motivo para cambiar, incumpliendo con el SRP.
