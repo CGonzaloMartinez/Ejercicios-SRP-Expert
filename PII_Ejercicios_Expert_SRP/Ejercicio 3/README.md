@@ -6,7 +6,7 @@
 
 ### Sistema de consultas médicas
 
-#### ✍ Parte 1 
+
 Como desarrolladores de software, se nos pide hacer el mantenimiento de un sistema de gestión médica,
 especifícamente se nos pide que hagamos mantenimiento de la funcionalidad de coordinación de consultas. Para ello debemos tener en cuenta que:
 1. Se podrían agregar otros datos del paciente como por ejemplo su edad.
@@ -16,7 +16,13 @@ especifícamente se nos pide que hagamos mantenimiento de la funcionalidad de co
 
 Se pide que critique el código dado en base a SRP
 
-#### ✍ Parte 2
-Aplique SRP según su crítica.
+Para el ejercicio se pide
 
+✍ Parte 1
+Criticar el código dado en base a patrónes y principios
 
+🧐 Parte 2
+Realizar las CRC correspondientes.
+
+👩‍💻 Parte 3
+Aplique patrónes/principios según su crítica.
