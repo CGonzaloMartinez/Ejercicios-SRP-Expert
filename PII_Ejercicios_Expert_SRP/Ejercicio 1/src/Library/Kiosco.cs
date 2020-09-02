@@ -26,3 +26,11 @@ namespace Expert_SRP
         }
     }
 }
+
+
+/* 
+La clase Kiosco se encarga de calcular el precio del alfajor, cuando en realidad esto podría hacerlo la propia clase "Alfajor",
+pues posee toda la información para realizarlo (Expert).
+Por otra parte, la clase Kiosco se está encargando de convertir a pesos el dinero del cliente. Se propone la implementación de una 
+nueva clase cuya función sea calcular la conversión de moneda.
+*/
