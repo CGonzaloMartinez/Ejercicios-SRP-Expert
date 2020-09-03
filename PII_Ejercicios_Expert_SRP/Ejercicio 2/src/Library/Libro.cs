@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace SRP
 {
@@ -16,20 +17,6 @@ namespace SRP
             this.Codigo = codigo;
         }
     }
-
-    public class Location
-    {
-        public string SectorBiblioteca {get; set;}
-        public string EstanteBiblioteca{get; set;}
-
-        public Location (string sectorBiblioteca, string estanteBiblioteca)
-        {
-            this.SectorBiblioteca = sectorBiblioteca;
-            this.EstanteBiblioteca = estanteBiblioteca;                
-        }
-        public void ArchivarLibro(Libro book)
-        {
-            book.Location = $"Ubicación del libro {book.Titulo} --> Sector: {this.SectorBiblioteca}  -  Estante: {this.EstanteBiblioteca}";
-        }
-    }
+  
+    
 }
