@@ -19,7 +19,7 @@ namespace GameOfLife
                     {
                         for (int j = y-1; j <= y+1; j++)
                         {
-                            if(i>=0 && i<boardWidth && j>=0 && j < boardHeight && gameBoard[i,j])
+                            if(i>=0 && i < boardWidth && j>=0 && j < boardHeight && gameBoard[i,j])
                             {
                                 aliveNeighbors++;
                             }

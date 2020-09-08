@@ -8,7 +8,7 @@ namespace GameOfLife
     {
         public bool[,] ImportTxt(string url)
         {
-            //string url = @"C:\Users\Gonzalo\Desktop\Probando.txt";
+            
             string content = System.IO.File.ReadAllText(url);
             string[] contentLines = content.Split('\n');
             bool[,] board = new bool[contentLines.Length, contentLines[0].Length];
